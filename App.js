@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>홍서빈 우리 아들 아주 똑똑해 메롱ㅋㅋㅋㅋㅋ ㅋㅋㅋ방구쟁이</Text>
-      <Text></Text>
+      <Text>test</Text>
       <Text style={styles.text}>홍우빈 우리 아들 아주 멋쟁이</Text>      
     </View>
   );
