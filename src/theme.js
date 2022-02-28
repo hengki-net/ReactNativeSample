@@ -1,7 +1,7 @@
-const color = {
+const colors = {
     white: '#ffffff',
     black: '#000000',
-    
+
     primary_orange_01: '#f6f1e7',
     primary_orange_02: '#f2d6c0',
     primary_orange_03: '#f0bc9a',
@@ -61,10 +61,25 @@ const color = {
     stat_yellow: '#f2c732',
     stat_yellohover: '#d8b024',
     stat_yelloactive: '#ac8d1a',
+
+    white: '#ffffff',
+    black: '#000000',
+    grey_0: '#d5d5d5',
+    grey_1: '#a6a6a6',
+    red: '#e84118',
+    blue: '#3679fe',
 };
 
 export const theme =
 {
-    background: color.background_01,
-    text: color.background_10,
+    background: colors.background_01,
+    text: colors.background_10,
+    imageBackground: colors.background_01,
+
+    // Input Component
+    label: colors.grey_1,
+    inputPlaceholder: colors.grey_1,
+    inputBorder: colors.grey_1,
+    inputDisabledBackground: colors.grey_0,
+
 }

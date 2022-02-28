@@ -5,6 +5,8 @@ import * as Font from 'expo-font'
 import { ThemeProvider } from "styled-components/native";
 import { theme } from "./theme";
 import AppLoading from 'expo-app-loading'
+import Navigation from './navigations';
+import { images } from './utils/images';
 
 /* 캐시-이미지 */
 const cacheImages = images => {
@@ -41,6 +43,7 @@ const App = () => {
   return isReady ? (
     <ThemeProvider theme={theme}>
       <StatusBar barStyle="dark-content" />
+      <Navigation/>
     </ThemeProvider>
   ) : (
     <AppLoading
