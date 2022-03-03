@@ -12,12 +12,11 @@ const AuthStack = () => {
             initialRouteName="Login"
             screenOptions={{
                 headerTitleAlign: 'center',
-                cardStyle: { backgroundColor: theme.background },
-                headerShown: false,
+                cardStyle: { backgroundColor: theme.background }
             }}
         >
 
-            <Stack.Screen name="로그인" component={Login} />
+            <Stack.Screen name="로그인" component={Login} options={{ headerShown: false }} />
 
         </Stack.Navigator>
     );

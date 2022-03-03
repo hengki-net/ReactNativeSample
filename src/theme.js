@@ -11,11 +11,11 @@ const colors = {
     primary_orange_07: '#bf321c',
     primary_orange_08: '#922412',
     primary_orange_09: '#531006',
-    primary_orange_10: '#190200',
     primary_orange_07: '#c64733',
     primary_orange_08: '#9d3a2a',
     primary_orange_09: '#65281f',
-    primary_orange_10: '#301c1a',
+    primary_orange_10: '#190200',
+    primary_orange_11: '#301c1a',
 
     primary_gray_01: '#efeff0',
     primary_gray_02: '#dcdfe0',
@@ -75,6 +75,7 @@ export const theme =
     background: colors.background_01,
     text: colors.background_10,
     imageBackground: colors.background_01,
+    errorText: colors.red,
 
     // Input Component
     label: colors.grey_1,
@@ -82,4 +83,18 @@ export const theme =
     inputBorder: colors.grey_1,
     inputDisabledBackground: colors.grey_0,
 
+    // Button Component
+    buttonBackground: colors.primary_orange_05,
+    buttonTitle: colors.white,
+    buttonUnfilledTitle: colors.blue,
+    buttonLogout: colors.red,
+
+    // Navigation
+    headerTintColor: colors.black,
+    tabActiveColor: colors.blue,
+    tabInactiveColor: colors.grey_1,
+
+    // Spinner
+    spinnerBackground: colors.black,
+    spinnerIndicator: colors.white,
 }

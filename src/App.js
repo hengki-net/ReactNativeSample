@@ -7,6 +7,7 @@ import { theme } from "./theme";
 import AppLoading from 'expo-app-loading'
 import Navigation from './navigations';
 import { images } from './utils/images';
+import { ProgressProvider, UserProvider } from './contexts';
 
 /* 캐시-이미지 */
 const cacheImages = images => {
@@ -42,8 +43,10 @@ const App = () => {
 
   return isReady ? (
     <ThemeProvider theme={theme}>
-      <StatusBar barStyle="dark-content" />
-      <Navigation/>
+      <ProgressProvider>
+        <StatusBar barStyle="dark-content" />
+        <Navigation />
+      </ProgressProvider>
     </ThemeProvider>
   ) : (
     <AppLoading
