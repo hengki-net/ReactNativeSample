@@ -1,4 +1,4 @@
-# 1. React Native 개발 환경 설정
+# 1. React Native 개발 환경 설정 (Windows)
 
 (1) choco 설치
 
