@@ -23,6 +23,8 @@
 
 > choco install -y python2
 
+→ cmd 껏다켜고 설치확인
+
 > python --version
 
 
